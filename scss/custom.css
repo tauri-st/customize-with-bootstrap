@@ -7,6 +7,17 @@ h1, .h1 {
   justify-content: flex-end;
 }
 
+img {
+  width: 60px;
+  aspect-ratio: auto 60/48;
+  height: 48px;
+}
+
+a.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
