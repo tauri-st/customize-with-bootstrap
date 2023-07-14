@@ -8,8 +8,6 @@ $light: white;
 $font-family-sans-serif:      'Montserrat', sans-serif;
 $font-family-monospace:       'Cormorant', serif;
 
-h1 {
-    font-family: $font-family-monospace;
-}
+$h1-font-size: 1rem;
 
 @import "../bootstrap/scss/bootstrap";
