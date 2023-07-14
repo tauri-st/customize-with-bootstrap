@@ -2,12 +2,13 @@
 
 $primary: #102E96;
 $secondary: #BC942F;
-
 $light: white;
 
 $font-family-sans-serif:      'Montserrat', sans-serif;
 $font-family-monospace:       'Cormorant', serif;
+$nav-link-font-size: $font-size-sm;
 
-$h1-font-size: 1rem;
+$h1-font-size: 1$font-size-base;
+$headings-color: $primary;
 
 @import "../bootstrap/scss/bootstrap";
