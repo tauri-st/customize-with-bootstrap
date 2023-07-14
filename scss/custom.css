@@ -3,10 +3,8 @@ h1, .h1 {
   display: inline-block;
 }
 
-.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm,
-.navbar-expand,
-.navbar {
-  justify-content: space-between;
+#navbarNavDropdown {
+  justify-content: flex-end;
 }
 
 /*!

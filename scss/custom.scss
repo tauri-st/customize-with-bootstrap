@@ -14,10 +14,8 @@ h1 {
     display: inline-block;
 }
 
-.container-fluid,
-.navbar-expand,
-.navbar {
-    justify-content: space-between;
+#navbarNavDropdown {
+    justify-content: flex-end;
 }
 
 @import "../bootstrap/scss/bootstrap";
