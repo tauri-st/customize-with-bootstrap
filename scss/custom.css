@@ -1,4 +1,14 @@
 @charset "UTF-8";
+h1, .h1 {
+  display: inline-block;
+}
+
+.container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm,
+.navbar-expand,
+.navbar {
+  justify-content: space-between;
+}
+
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -220,7 +230,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: 1rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 1.5rem;
+  }
 }
 
 h2, .h2 {
@@ -3762,7 +3777,6 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-size: 0.625rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
@@ -3961,7 +3975,6 @@ textarea.form-control-lg {
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-size: 0.625rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
@@ -8358,7 +8371,7 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: 1rem !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 
 .fs-2 {
@@ -11981,6 +11994,9 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
+  .fs-1 {
+    font-size: 1.5rem !important;
+  }
   .fs-2 {
     font-size: 2rem !important;
   }

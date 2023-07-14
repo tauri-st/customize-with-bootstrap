@@ -6,9 +6,18 @@ $light: white;
 
 $font-family-sans-serif:      'Montserrat', sans-serif;
 $font-family-monospace:       'Cormorant', serif;
-$nav-link-font-size: .625rem;
 
-$h1-font-size: 1rem;
+$h1-font-size: 1.5rem;
 $headings-color: $primary;
+
+h1 {
+    display: inline-block;
+}
+
+.container-fluid,
+.navbar-expand,
+.navbar {
+    justify-content: space-between;
+}
 
 @import "../bootstrap/scss/bootstrap";
