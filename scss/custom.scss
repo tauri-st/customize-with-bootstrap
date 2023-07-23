@@ -1,4 +1,6 @@
 //custom.scss
+@import '../bootstrap/scss/bootstrap';
+@import '../bootstrap/scss/bootstrap.scss';
 
 //THEMES
 $primary: #102E96;
@@ -16,9 +18,15 @@ $h4-font-size: .75rem;
 $headings-color: $dark;
 
 //NAVIGATION
+nav.navbar {
+    background-color: $light;
+}
+
 h1 {
     display: inline-block;
     color: $primary;
+    font-family: 'Cormorant', serif;
+    font-size: 1.5rem;
 }
 
 #navbarNavDropdown {
@@ -43,6 +51,7 @@ a.navbar-brand {
 //FOOTER
 h4 {
     color: $light;
+    font-size: .75rem;
     font-weight: 700;
 }
 
@@ -91,4 +100,3 @@ footer .social-icons p {
 .linkedin {
     background-color: #2867B2;
 }
-@import '../bootstrap/scss/bootstrap';
