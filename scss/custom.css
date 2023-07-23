@@ -24039,4 +24039,14 @@ footer .social-icons p {
 
 .linkedin {
   background-color: #2867B2;
+}
+
+.page-title {
+  background-color: #BC942F;
+}
+
+h2, .h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
 }/*# sourceMappingURL=custom.css.map */
