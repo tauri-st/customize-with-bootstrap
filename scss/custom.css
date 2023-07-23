@@ -24064,4 +24064,12 @@ h3, .h3 {
   font-size: 1.75rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.service-cards p {
+  color: #212529;
+}
+
+.service-cards a {
+  color: #102E96;
 }/*# sourceMappingURL=custom.css.map */
