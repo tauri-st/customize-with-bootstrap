@@ -1,5 +1,6 @@
 //custom.scss
 
+//THEMES
 $primary: #102E96;
 $secondary: #BC942F;
 $light: white;
@@ -8,10 +9,16 @@ $font-family-sans-serif:      'Montserrat', sans-serif;
 $font-family-monospace:       'Cormorant', serif;
 
 $h1-font-size: 1.5rem;
-$headings-color: $primary;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.25rem;
+$h4-font-size: .75rem;
 
+$headings-color: $dark;
+
+//NAVIGATION
 h1 {
     display: inline-block;
+    color: $primary;
 }
 
 #navbarNavDropdown {
@@ -29,4 +36,59 @@ a.navbar-brand {
     align-items: center;
 }
 
-@import "../bootstrap/scss/bootstrap";
+.navbar-bottom#navbarNavDropdown {
+    justify-content: center;
+}
+
+//FOOTER
+h4 {
+    color: $light;
+    font-weight: 700;
+}
+
+.col-md-3 p,
+.col-md-4 p {
+    font-size: .75rem;
+    color: $light;
+}
+
+.contact-button {
+    background-color: $secondary;
+    color: black;
+}
+
+.highlight {
+    color: $secondary;
+}
+
+footer .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .social-icons p {
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.instagram {
+    background-color: #F00073;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.linkedin {
+    background-color: #2867B2;
+}
+@import '../bootstrap/scss/bootstrap';
