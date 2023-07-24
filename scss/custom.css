@@ -24072,6 +24072,7 @@ h3, .h3 {
 
 .service-cards p {
   color: #212529;
+  text-align: left;
 }
 
 .service-cards a {
