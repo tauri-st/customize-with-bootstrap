@@ -24066,6 +24066,10 @@ h3, .h3 {
   padding-bottom: 1.5rem;
 }
 
+.card-header {
+  background-color: #8f9194;
+}
+
 .service-cards p {
   color: #212529;
 }
